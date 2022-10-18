@@ -4,23 +4,30 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <style>
+   body {
+   background:url("zhuomian.jpg")  no-repeat center center;
+   background-size:cover;
+   background-attachment:fixed; 
+   background-color:#CCCCCC;
+ }
 	  *{
 	  margin:0;
 	  padding:0;
 	  }
 	div{
-	height:40px;
+	height:80px;
 	background:linear-gradient(orange,#e60);
 	}
 	li{
 	float:left;
 	height:100px;
-	width:100px;
-	line-height:40px;
+	width:150px;
+	line-height:80px;
 	text-align:center;
 	}
 	a{
 	color:black;
+	display:block;
 	}
 	ul{
 	width:800px;
@@ -29,9 +36,14 @@
 	a:hover{
 	background:#fa0;
 	}
+	a{
+	font-size:25px;
+	}
+	div:top{
+	height:5px;
+	}
   </style>
  </head>
- <body>
   <div class="nav">
 	<ul class="navlist">
 		<li><a href="demo01.html">作业一</a></li>
