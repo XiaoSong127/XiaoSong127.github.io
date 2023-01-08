@@ -2,9 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>test03</title>
     <style>
       div {
         width: 130px;
@@ -15,8 +13,6 @@
         border: 2px solid;
         display: inline-block;
         text-align: center;
-        background-color: rgba(100, 100, 100, 0.1);
-        position: absolute;
       }
     </style>
   </head>
@@ -26,14 +22,8 @@
         var divDom = document.createElement("div");
         divDom.textContent =
           "天生丽质难自弃，一朝选在君王侧。回眸一笑百媚生，六宫粉黛无颜色。";
-        randPositionDiv(divDom);
+
         document.body.appendChild(divDom);
-      }
-      function randPositionDiv(dom) {
-        var x = Math.floor(Math.random() * 600);
-        var y = Math.floor(Math.random() * 400);
-        dom.style.left = x + "px";
-        dom.style.top = y + "px";
       }
     </script>
   </body>
